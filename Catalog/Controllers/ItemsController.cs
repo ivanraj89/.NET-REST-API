@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using Catalog.Repositories;
 using Catalog.Entities;
 
+
 namespace Catalog.Controllers
 {
     
@@ -21,6 +22,19 @@ namespace Catalog.Controllers
         {
             var items = repository.GetItems();
             return items;
+        }
+
+        // GET /items/ {id} (http://localhost:5198/swagger/index.html to check)
+        [HttpGet("{id}")]
+        public ActionResult<Item> GetItem(Guid id)
+        {
+            var item = repository.GetItem(id);
+
+            if (item is null)
+            {
+                return NotFound();
+            }
+            return item;
         }
     }
 }
