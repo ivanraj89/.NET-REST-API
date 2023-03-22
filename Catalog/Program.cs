@@ -1,4 +1,5 @@
 using Catalog.Repositories;
+using MongoDB.Driver;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,6 +10,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddSingleton<IItemsRepository, InMemItemsRepository>();
+
 
 var app = builder.Build();
 
