@@ -31,3 +31,16 @@ D:\REST-API\Catalog\obj\Debug\net7.0\refint\Catalog.dll
 D:\REST-API\Catalog\obj\Debug\net7.0\Catalog.pdb
 D:\REST-API\Catalog\obj\Debug\net7.0\Catalog.genruntimeconfig.cache
 D:\REST-API\Catalog\obj\Debug\net7.0\ref\Catalog.dll
+D:\REST-API\Catalog\bin\Debug\net7.0\AWSSDK.Core.dll
+D:\REST-API\Catalog\bin\Debug\net7.0\AWSSDK.SecurityToken.dll
+D:\REST-API\Catalog\bin\Debug\net7.0\DnsClient.dll
+D:\REST-API\Catalog\bin\Debug\net7.0\MongoDB.Bson.dll
+D:\REST-API\Catalog\bin\Debug\net7.0\MongoDB.Driver.dll
+D:\REST-API\Catalog\bin\Debug\net7.0\MongoDB.Driver.Core.dll
+D:\REST-API\Catalog\bin\Debug\net7.0\MongoDB.Libmongocrypt.dll
+D:\REST-API\Catalog\bin\Debug\net7.0\SharpCompress.dll
+D:\REST-API\Catalog\bin\Debug\net7.0\Snappier.dll
+D:\REST-API\Catalog\bin\Debug\net7.0\ZstdSharp.dll
+D:\REST-API\Catalog\bin\Debug\net7.0\runtimes\linux\native\libmongocrypt.so
+D:\REST-API\Catalog\bin\Debug\net7.0\runtimes\osx\native\libmongocrypt.dylib
+D:\REST-API\Catalog\bin\Debug\net7.0\runtimes\win\native\mongocrypt.dll
